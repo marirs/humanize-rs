@@ -1,0 +1,25 @@
+[package]
+name = "humanize"
+version = "0.0.1"
+authors = ["Marirs <marirs@gmail.com"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.19"
+
+[lib]
+name = "humanize"
+path = "src/lib.rs"
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+codegen-units = 1
+debug-assertions = false
+debug = false
+opt-level = 3
+lto = true
+
