@@ -1,4 +1,4 @@
-Humanize for Rust
+Humanize
 =====================
 [![Build Status](https://travis-ci.com/marirs/humanize-rs.svg?branch=master)](https://travis-ci.com/marirs/humanize-rs)
 
