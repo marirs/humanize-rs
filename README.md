@@ -1,5 +1,6 @@
 Humanize for Rust
 =====================
+[![Build Status](https://travis-ci.com/marirs/humanize-rs.svg?branch=master)](https://travis-ci.com/marirs/humanize-rs)
 
 This is a simple crate to humanize bytes or Time into human readable format.
 
