@@ -2,6 +2,12 @@
 name = "humanize"
 version = "0.0.1"
 authors = ["Marirs <marirs@gmail.com"]
+description = "Convert Time/bytes into human readable string"
+keywords = ["humanize", "time", "bytes"]
+readme = "README.md"
+homepage = "https://github.com/marirs/humanize-rs"
+repository = "https://github.com/marirs/humanize-rs"
+license = "MIT"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -12,6 +18,9 @@ chrono = "0.4.19"
 [lib]
 name = "humanize"
 path = "src/lib.rs"
+
+[badges]
+travis-ci = { repository = "marirs/humanize-rs" }
 
 [profile.dev]
 opt-level = 3
